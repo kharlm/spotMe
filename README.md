@@ -2,8 +2,6 @@
 2. Then cd into the folder Backend and add you .env file and add the following plaid credentials 
 PLAID_CLIENT_ID=
 PLAID_SECRET=
-
-
 PLAID_ENV=sandbox
 PLAID_PRODUCTS=auth,transactions
 PLAID_COUNTRY_CODES=US,CA
