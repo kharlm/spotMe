@@ -6,5 +6,7 @@
 	<array>
 		<string>applinks:localhsot:3000/</string>
 	</array>
+	<key>com.apple.developer.associated-domains.mdm-managed</key>
+	<true/>
 </dict>
 </plist>

@@ -2,6 +2,8 @@ import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {Transactions} from '../../component/Transactions';
 import {Balance} from '../../component/Balance';
+import {MakePayment} from '../../component/MakePayment';
+
 export function WalletDetails(props) {
   return (
     <View style={styles.container}>
@@ -12,6 +14,7 @@ export function WalletDetails(props) {
         <Balance />
       </View>
       <View style={styles.transactions}>
+        <MakePayment />
         <View style={{marginVertical: 10}}>
           <Text style={styles.heading}>Last Transactions</Text>
         </View>
@@ -20,6 +23,7 @@ export function WalletDetails(props) {
     </View>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
